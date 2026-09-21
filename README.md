@@ -156,7 +156,7 @@ The original source snapshot was reported as commit `5e04fb2`; the expanded docu
 
 ## Manuscript and citation
 
-The revised manuscript is available at:
+The manuscript is available at:
 
 - [`paper/CREO_REPOSITORY_PACKAGE.pdf`](paper/CREO_REPOSITORY_PACKAGE.pdf)
 - [`paper/CREO_REPOSITORY_PACKAGE.tex`](paper/CREO_REPOSITORY_PACKAGE.tex)
