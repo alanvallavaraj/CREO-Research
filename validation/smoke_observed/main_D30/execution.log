@@ -1,0 +1,27 @@
+Benchmark functions: [3]
+Extracted CEC2017 package to: /mnt/data/creo_benchmark_validation/smoke_D30/cec17_official/cec17_python-master
+Compiling shared library...
+Compile command: gcc -shared -fPIC -O2 -o /mnt/data/creo_benchmark_validation/smoke_D30/cec17_official/cec17_python-master/cec17_test_func.so /mnt/data/creo_benchmark_validation/smoke_D30/cec17_official/cec17_python-master/cec17_test_func.c -lm
+Compiled: /mnt/data/creo_benchmark_validation/smoke_D30/cec17_official/cec17_python-master/cec17_test_func.so
+Imported cec17_test_func successfully.
+
+========== DIMENSION 30 | MAX_EVALS 600 ==========
+
+Running F3 | D=30
+  GA
+  PSO
+  DE
+  GWO
+  CREO-Repair
+  CREO-RG
+  CREO-DE
+
+Saved outputs:
+/mnt/data/creo_benchmark_validation/smoke_D30/cec17_results_D30/all_benchmark_results.csv
+/mnt/data/creo_benchmark_validation/smoke_D30/cec17_results_D30/overall_algorithm_summary.csv
+/mnt/data/creo_benchmark_validation/smoke_D30/cec17_results_D30/wilcoxon_creo_de_vs_others.csv
+/mnt/data/creo_benchmark_validation/smoke_D30/cec17_results_D30/friedman_ranks.csv
+/mnt/data/creo_benchmark_validation/smoke_D30/cec17_results_D30/overall_friedman_mean_ranks.csv
+/mnt/data/creo_benchmark_validation/smoke_D30/cec17_results_D30/tables
+/mnt/data/creo_benchmark_validation/smoke_D30/cec17_results_D30/plots
+/mnt/data/creo_benchmark_validation/smoke_D30/cec17_results_D30/curves

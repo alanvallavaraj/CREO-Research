@@ -1,0 +1,28 @@
+{
+  "benchmark_filename": "cec17_python-master.zip",
+  "benchmark_sha256": "a2defd319d4c8dbca1411e3e9a470e524e8165b987ea55a5185e687836a65c6c",
+  "archive_top_level_directory": "cec17_python-master/",
+  "archive_reported_git_commit_in_zip_comment": "f60d0000be91ef080deb10b09dce07e4a1c30d9a",
+  "benchmark_files_count": 334,
+  "executable_wrapper": "cec17_functions.py",
+  "compiled_C_source": "cec17_test_func.c",
+  "source_url": "not established from the user-provided zip; author must verify upstream repository and distribution rights",
+  "license": "no license file found in the provided archive; do not publicly redistribute without checking rights",
+  "historical_experiment_package_match": "unknown: hash of the benchmark used for the historical 30-run archives is unavailable",
+  "tested_in_fresh_working_dir": true,
+  "validated_functions_and_dimensions": {
+    "10": [
+      1,
+      3,
+      30
+    ],
+    "30": [
+      1,
+      3,
+      30
+    ]
+  },
+  "full_historical_experiments_rerun": false,
+  "small_scale_main_and_ablation_smoke": true,
+  "notes": "The original 30-run result CSVs are unchanged; new smoke outcomes are independent reduced-budget checks, not replacement data."
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Isolated short smoke experiments; do not combine with publication archives.",
+  "tests": [
+    {
+      "dimension": 10,
+      "function": 1,
+      "runs": 1,
+      "max_evaluations_per_method": 200,
+      "algorithms": [
+        "DE",
+        "CREO-DE-NoRG",
+        "CREO-DE"
+      ],
+      "return_code": 0,
+      "elapsed_seconds": 4.0,
+      "result_rows": 3,
+      "results_csv": "ablation_smoke_D10/cec17_ablation_small_D10/all_ablation_results.csv"
+    },
+    {
+      "dimension": 30,
+      "function": 3,
+      "runs": 1,
+      "max_evaluations_per_method": 600,
+      "algorithms": [
+        "DE",
+        "CREO-DE-NoRG",
+        "CREO-DE"
+      ],
+      "return_code": 0,
+      "elapsed_seconds": 3.85,
+      "result_rows": 3,
+      "results_csv": "ablation_smoke_D30/cec17_ablation_small_D30/all_ablation_results.csv"
+    }
+  ]
+}

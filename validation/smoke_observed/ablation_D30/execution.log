@@ -1,0 +1,19 @@
+Extracted CEC package to: /mnt/data/creo_benchmark_validation/ablation_smoke_D30/cec17_official_ablation/cec17_python-master
+Benchmark functions to run: [3]
+Compiling shared library...
+Compile command: gcc -shared -fPIC -O2 -o /mnt/data/creo_benchmark_validation/ablation_smoke_D30/cec17_official_ablation/cec17_python-master/cec17_test_func.so /mnt/data/creo_benchmark_validation/ablation_smoke_D30/cec17_official_ablation/cec17_python-master/cec17_test_func.c -lm
+Compiled: /mnt/data/creo_benchmark_validation/ablation_smoke_D30/cec17_official_ablation/cec17_python-master/cec17_test_func.so
+Imported cec17_test_func successfully.
+
+========== DIMENSION 30 | MAX_EVALS 600 ==========
+
+Running F3 | D=30
+  DE
+  CREO-DE-NoRG
+  CREO-DE
+
+Saved outputs:
+/mnt/data/creo_benchmark_validation/ablation_smoke_D30/cec17_ablation_small_D30/all_ablation_results.csv
+/mnt/data/creo_benchmark_validation/ablation_smoke_D30/cec17_ablation_small_D30/ablation_rank_summary.csv
+/mnt/data/creo_benchmark_validation/ablation_smoke_D30/cec17_ablation_small_D30/tables
+/mnt/data/creo_benchmark_validation/ablation_smoke_D30/cec17_ablation_small_D30/plots

@@ -1,0 +1,44 @@
+{
+  "description": "Functional sanity tests only; these are separate, reduced-budget new runs and must not be mixed with archived 30-run publication results.",
+  "benchmark_sha256": "a2defd319d4c8dbca1411e3e9a470e524e8165b987ea55a5185e687836a65c6c",
+  "tests": [
+    {
+      "dimension": 10,
+      "function": 1,
+      "runs": 1,
+      "max_evaluations_per_method": 200,
+      "algorithms": [
+        "GA",
+        "PSO",
+        "DE",
+        "GWO",
+        "CREO-Repair",
+        "CREO-RG",
+        "CREO-DE"
+      ],
+      "return_code": 0,
+      "elapsed_seconds": 6.82,
+      "result_rows": 7,
+      "results_csv": "smoke_D10/cec17_results_D10/all_benchmark_results.csv"
+    },
+    {
+      "dimension": 30,
+      "function": 3,
+      "runs": 1,
+      "max_evaluations_per_method": 600,
+      "algorithms": [
+        "GA",
+        "PSO",
+        "DE",
+        "GWO",
+        "CREO-Repair",
+        "CREO-RG",
+        "CREO-DE"
+      ],
+      "return_code": 0,
+      "elapsed_seconds": 4.0,
+      "result_rows": 7,
+      "results_csv": "smoke_D30/cec17_results_D30/all_benchmark_results.csv"
+    }
+  ]
+}

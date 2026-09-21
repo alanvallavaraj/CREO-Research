@@ -1,0 +1,19 @@
+Dimension,Dataset,Comparison,Wins,Ties,Losses
+10,main,CREO-DE vs DE,3,0,26
+10,main,CREO-DE vs PSO,12,0,17
+10,main,CREO-DE vs GA,20,0,9
+10,main,CREO-DE vs GWO,27,0,2
+10,main,CREO-DE vs CREO-Repair,25,0,4
+10,main,CREO-DE vs CREO-RG,27,0,2
+10,ablation,CREO-DE vs CREO-DE-NoRG,12,0,17
+10,ablation,CREO-DE vs DE,2,0,27
+10,ablation,CREO-DE-NoRG vs DE,1,0,28
+30,main,CREO-DE vs DE,1,0,28
+30,main,CREO-DE vs PSO,3,0,26
+30,main,CREO-DE vs GA,12,0,17
+30,main,CREO-DE vs GWO,27,0,2
+30,main,CREO-DE vs CREO-Repair,11,0,18
+30,main,CREO-DE vs CREO-RG,11,0,18
+30,ablation,CREO-DE vs CREO-DE-NoRG,1,0,28
+30,ablation,CREO-DE vs DE,0,0,29
+30,ablation,CREO-DE-NoRG vs DE,1,0,28

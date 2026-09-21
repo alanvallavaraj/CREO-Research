@@ -1,0 +1,7 @@
+# Capturing genuinely new run-level results
+
+Historical `all_benchmark_results.csv` and `all_ablation_results.csv` contain only aggregated terminal means, sample SD, best and worst; these cannot uniquely recover the 30 individual runs. Do not generate synthetic rows from these summaries.
+
+Before rerunning, preserve the historical archive, add run-by-run output to each main/ablation script *at the point where `best, curve = run_algorithm(...)` returns*, and record the real function ID, dimension, algorithm, run index, random seeds/state identifiers, `best.objective`, `best.fitness`, `best.violation`, budget, and checksum/revision of the external CEC benchmark. The current scripts seed Python and NumPy only once at launch, so assigning `42 + run_index` to historical runs would be inaccurate. For future experiments, consider explicitly seeding Python and NumPy at the start of each new run (and record each seed), but label it as a NEW experiment rather than an exact replay of the historical archive. Store per-run data in a new versioned output folder; do not overwrite existing result files. If you compute inferential tests, use the actual sampling structure and clearly state multiple-testing corrections.
+
+Per-function PNG convergence plots from the original runs ARE included in this package, but numerical individual-run convergence arrays were not saved because the scripts set `SAVE_ALL_CURVES=False`. Images are not substitutes for the original numerical time-series arrays.

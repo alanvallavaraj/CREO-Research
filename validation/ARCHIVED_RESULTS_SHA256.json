@@ -1,0 +1,10 @@
+{
+  "source_archive": "CREO-DE-main.zip",
+  "archived_csv_sha256": {
+    "cec17_results_D10/all_benchmark_results.csv": "fe85cc6ac2a72699d9d4cf99eee217571a3bd8bcf3e4913dbf7f9d9c64f5aac8",
+    "cec17_results_D30/all_benchmark_results.csv": "d0982bbc1cab99e8f26de9118e758216f461d9989fa128372c9b09e4c168f2cf",
+    "cec17_ablation_small_D10/all_ablation_results.csv": "d8c559d49f8bc99785572fc9da53a8ffb00efb4f10af27a79b266b7e94869b4a",
+    "cec17_ablation_small_D30/all_ablation_results.csv": "c763da680b2d6a37757ce06ec686a35f57b3cda0df5f167da963a057e10e7173"
+  },
+  "note": "These files are preserved from the original supplied repository and have not been replaced by reduced-budget smoke data."
+}
