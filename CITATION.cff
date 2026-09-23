@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software or its archived results, please cite the tagged release and the accompanying paper."
 title: "CREO-Research: Repair-Guided Evolutionary Optimisation"
 type: software
-version: 1.0.0
-date-released: 2026-09-22
+version: 1.1.0
+date-released: 2026-09-23
 authors:
   - family-names: "Vallavaraj"
     given-names: "Alan Immanuel Benjamin"

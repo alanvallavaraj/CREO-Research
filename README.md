@@ -1,6 +1,8 @@
 # CREO-Research: Repair-Guided Evolutionary Optimisation
 
-This repository contains the Python implementations, archived numerical results, analysis scripts, verification materials, and manuscript for **Repair-Guided Evolutionary Optimisation (CREO)**, including the Differential Evolution hybrid **CREO-DE**.
+This repository contains the Python implementations, archived numerical results, analysis scripts, verification materials, and manuscript for **Repair-Guided Evolutionary Optimisation (CREO)**, including the Differential Evolution hybrid **CREO-DE**. The current manuscript package is prepared for **Information Sciences** (Elsevier, ISSN 0020-0255).
+
+> **Submission status:** preprint prepared for journal submission; not peer reviewed or accepted. The repository is currently private.
 
 **Research scope:** The study evaluates CEC2017 objective functions under an additional, author-defined preferred region and repair protocol. These are **not** unmodified CEC2017 competition results: GA, PSO, DE and GWO use penalty-mode evaluation/selection, while CREO variants use repair-mode evaluation. The most direct test of the repair-guidance term is the CREO-DE versus CREO-DE-NoRG ablation. The archived results do not establish that CREO-DE outperforms DE overall.
 
@@ -18,8 +20,8 @@ This repository contains the Python implementations, archived numerical results,
 | `analysis/` | Reanalysis of the archived CSV summaries and generated descriptive tables. |
 | `validation/` | Benchmark validation scripts, reduced-budget execution logs and smoke-test outputs. |
 | `tests/` | Automated checks of selected algorithm functions and archived result structures. |
-| `paper/CREO_REPOSITORY_PACKAGE.pdf`, `paper/CREO_REPOSITORY_PACKAGE.tex` | Earlier repository manuscript package, retained for provenance. |
-| `paper/CREO_Elsevier/` | Elsevier CAS submission package: source, class assets, highlights, and compiled PDF. |
+| `paper/Information_Sciences/` | Current Information Sciences CAS package: source, class assets, highlights, checklist, and compiled PDF. |
+| `paper/archive/IEEE_previous/` | Superseded IEEE-formatted manuscript retained only for provenance; do not submit it to Information Sciences. |
 | `REPRODUCIBILITY_STATUS.md`, `EXPERIMENT_EXECUTION_REPORT.md` | Record what was checked and what remains unreplicated. |
 | `THIRD_PARTY_BENCHMARK_PROVENANCE.md` | Provenance and verification details for the external CEC2017 implementation. |
 | `requirements.txt` | Python dependencies. |
@@ -157,14 +159,15 @@ The original source snapshot was reported as commit `5e04fb2`; the expanded docu
 
 ## Manuscript and citation
 
-The submission-formatted Elsevier CAS package is available at:
+The current manuscript package targets [Information Sciences](https://www.elsevier.com/journals/information-sciences/0020-0255) and is available at:
 
-- [Compiled Elsevier manuscript](paper/CREO_Elsevier/main.pdf)
-- [Elsevier LaTeX source](paper/CREO_Elsevier/main.tex)
-- [Package instructions](paper/CREO_Elsevier/README.md)
-- [Research highlights](paper/CREO_Elsevier/highlights.txt)
+- [Compiled manuscript](paper/Information_Sciences/main.pdf)
+- [LaTeX source](paper/Information_Sciences/main.tex)
+- [Package instructions](paper/Information_Sciences/README.md)
+- [Submission checklist](paper/Information_Sciences/SUBMISSION_CHECKLIST.md)
+- [Research highlights](paper/Information_Sciences/highlights.txt)
 
-The package uses Elsevier's CAS single-column class and keeps all required source files at one folder level for Editorial Manager. The section hierarchy, front matter, keywords, highlights, numbered citations, appendix handling, CRediT metadata, cross-references, and compilation were checked. The earlier repository manuscript files remain in `paper/` for provenance.
+The package uses Elsevier's CAS single-column class and keeps all required source files at one folder level for Editorial Manager. Information Sciences uses single-anonymized review, so author details remain visible. The abstract (243 words), six keywords, four highlights, section hierarchy, front matter, numbered citations, appendix handling, CRediT metadata, AI-use declaration, cross-references, and compilation were checked. The earlier IEEE-formatted manuscript is archived under `paper/archive/IEEE_previous/` for provenance and must not be submitted to Information Sciences.
 
 When describing the numerical benchmark, attribute the Python wrapper to **Marcelo Lacerda** and the CEC2017 problem definitions to **Awad et al. (2016)**, using the upstream source and technical report cited above. Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Add the CREO paper's definitive journal citation and DOI after publication; none is asserted here.
 
