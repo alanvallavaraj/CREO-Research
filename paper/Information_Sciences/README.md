@@ -27,7 +27,7 @@ No BibTeX run is required because `main.tex` contains a complete `thebibliograph
 ## Formatting checked
 
 - Information Sciences is a single-anonymized journal, so author details remain in the manuscript.
-- The abstract is 243 words, within the journal's 250-word maximum.
+- The abstract is 178 words, within the submission portal's 200-word maximum.
 - Six English keywords are supplied, within the journal's maximum.
 - Four highlights are supplied; each is no more than 85 characters including spaces.
 - Elsevier CAS front matter, affiliation, corresponding-author marker, email, and CRediT roles.
