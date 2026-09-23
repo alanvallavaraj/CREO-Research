@@ -2,7 +2,7 @@
 
 This repository contains the Python implementations, archived numerical results, analysis scripts, verification materials, and manuscript for **Repair-Guided Evolutionary Optimisation (CREO)**, including the Differential Evolution hybrid **CREO-DE**. The current manuscript package is prepared for **Information Sciences** (Elsevier, ISSN 0020-0255).
 
-> **Submission status:** preprint prepared for journal submission; not peer reviewed or accepted. The repository is currently private.
+> **Submission status:** manuscript prepared for journal submission; not peer reviewed or accepted. This repository is public.
 
 **Research scope:** The study evaluates CEC2017 objective functions under an additional, author-defined preferred region and repair protocol. These are **not** unmodified CEC2017 competition results: GA, PSO, DE and GWO use penalty-mode evaluation/selection, while CREO variants use repair-mode evaluation. The most direct test of the repair-guidance term is the CREO-DE versus CREO-DE-NoRG ablation. The archived results do not establish that CREO-DE outperforms DE overall.
 
@@ -152,7 +152,7 @@ The observed smoke-test outputs and logs are stored under `validation/smoke_obse
 
 ## Data availability and limitations
 
-The four archived result folders preserve original per-function summary CSV files and convergence plots. **They do not contain every individual run's final objective value**, so the complete run-level statistical analysis cannot be independently reconstructed from the published summaries alone. Future experiments should export per-run values, seeds, parameters, feasibility/fitness values and the exact external benchmark revision and checksum.
+The four archived result folders preserve original per-function summary CSV files and convergence plots. The main aggregated numerical results are available in [`D10 main results`](cec17_results_D10/all_benchmark_results.csv) and [`D30 main results`](cec17_results_D30/all_benchmark_results.csv), and the ablations in [`D10 ablation results`](cec17_ablation_small_D10/all_ablation_results.csv) and [`D30 ablation results`](cec17_ablation_small_D30/all_ablation_results.csv). **They do not contain every individual run's final objective value**, so the complete run-level statistical analysis cannot be independently reconstructed from the published summaries alone. Future experiments should export per-run values, seeds, parameters, feasibility/fitness values and the exact external benchmark revision and checksum.
 
 The original source snapshot was reported as commit `5e04fb2`; the expanded documentation and validation files were prepared later. Record and cite the actual commit or archived DOI corresponding to the final public release rather than assigning the earlier commit to files added subsequently.
 
