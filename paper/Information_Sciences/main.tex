@@ -1,4 +1,6 @@
 
+% Manuscript prepared for submission to Information Sciences (Elsevier).
+% Journal ISSN: 0020-0255.
 % Elsevier CAS single-column manuscript template.
 % Keep all submission files in this directory; Editorial Manager does not
 % process LaTeX submissions that depend on subdirectories.
@@ -12,7 +14,12 @@
 \usepackage{float}
 \usepackage{url}
 \usepackage[numbers,sort&compress]{natbib}
-\hypersetup{hypertexnames=false}
+\hypersetup{
+  hypertexnames=false,
+  pdftitle={Repair-Guided Evolutionary Optimisation (CREO): A Structured Search Paradigm for Continuous Optimisation},
+  pdfauthor={Alan Immanuel Benjamin Vallavaraj},
+  pdfsubject={Manuscript prepared for submission to Information Sciences (ISSN 0020-0255)}
+}
 
 % Self-contained algorithm float and pseudocode commands. This avoids an
 % external algorithm package that may not be installed by Editorial Manager.
@@ -576,7 +583,7 @@ Future work will investigate dimension-adaptive repair weighting, sensitivity of
 
 \section*{Code and Data Availability}
 
-The original code and aggregate results were inspected in the supplied \texttt{CREO-DE-main.zip}, corresponding to source snapshot \texttt{5e04fb2}. A companion package preserves the original experiment scripts and archived results, adds \texttt{analysis/rebuild\_archived\_results.py} for independent reanalysis of the supplied CSV summaries, and includes isolated unit tests of the original repair functions. The aggregate tables and appendix in this paper were re-derived from archived full-precision CSV means; this is not a rerun of the original numerical-optimisation experiment. The files include \texttt{experiment\_d10.py}, \texttt{experiment\_d30.py}, \texttt{ablation\_experiment.py}, aggregated CSVs and per-function plots. The code expects an external \texttt{cec17\_python-master.zip} archive containing \texttt{cec17\_functions.py}, \texttt{cec17\_test\_func.c} and CEC2017 input data. A separately supplied Python/C benchmark archive (SHA-256 recorded in the repository's \texttt{validation/BENCHMARK\_PROVENANCE.json}) was compiled and tested on six evaluator inputs: F1, F3 and F30 at $D=10$ and $D=30$. The original main and ablation drivers also completed four isolated one-function, one-run, reduced-budget smoke experiments. These functional checks do not reproduce the published 29-function, 30-run results, and the benchmark archive used historically cannot be established as byte-identical without a contemporaneous checksum. Complete historical run-level outcomes and a verified public upstream source/license were not provided. The third-party archive is therefore kept as a local dependency rather than included in the public repository package. The packaged repository now includes expanded reproduction instructions, a corrected dependency list, unit tests of the archived repair functions, and a script that reanalyses the archived summary tables. These additions and the reduced-budget verification do not substitute for full-budget independent replication or the missing historical run-level results.
+The code, archived aggregate results, reanalysis scripts, and validation metadata supporting this study are maintained in the CREO-Research repository at \url{https://github.com/alanvallavaraj/CREO-Research}. The repository preserves the original experiment scripts and results corresponding to source snapshot \texttt{5e04fb2}, adds \texttt{analysis/rebuild\_archived\_results.py} for independent reanalysis of the supplied CSV summaries, and includes isolated unit tests of the original repair functions. The aggregate tables and appendix in this paper were re-derived from archived full-precision CSV means; this is not a rerun of the original numerical-optimisation experiment. The files include \texttt{experiment\_d10.py}, \texttt{experiment\_d30.py}, \texttt{ablation\_experiment.py}, aggregated CSVs, and per-function plots. The code expects an external \texttt{cec17\_python-master.zip} archive containing \texttt{cec17\_functions.py}, \texttt{cec17\_test\_func.c}, and CEC2017 input data. A separately supplied Python/C benchmark archive (SHA-256 recorded in the repository's \texttt{validation/BENCHMARK\_PROVENANCE.json}) was compiled and tested on six evaluator inputs: F1, F3, and F30 at $D=10$ and $D=30$. The original main and ablation drivers also completed four isolated one-function, one-run, reduced-budget smoke experiments. These functional checks do not reproduce the reported 29-function, 30-run results, and the benchmark archive used historically cannot be established as byte-identical without a contemporaneous checksum. Complete historical run-level outcomes and a verified public upstream source/licence were not provided. The third-party archive is therefore kept as a local dependency rather than included in the repository. At initial submission the repository is private; an editor/reviewer access copy can be supplied through Editorial Manager, and a permanent public release identifier should be added before publication. The repository includes expanded reproduction instructions, a corrected dependency list, unit tests of the archived repair functions, and a script that reanalyses the archived summary tables. These additions and the reduced-budget verification do not substitute for full-budget independent replication or the missing historical run-level results.
 
 \appendix
 \section{Complete Archived Function-Wise Results}
@@ -712,6 +719,10 @@ F30 & 3647.97 & 12752 & 18479.8 & 6754.01 & 3.36715e+06 & 3.70934e+07\\
 \end{tabular}}
 \end{table}
 \clearpage
+
+\section*{Declaration of generative AI and AI-assisted technologies in the writing process}
+
+During the preparation of this work, the author used OpenAI ChatGPT to assist with language editing, manuscript structure, and \LaTeX{} formatting. After using this tool, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication.
 
 \printcredits
 
