@@ -17,7 +17,6 @@ Official guide: <https://www.elsevier.com/journals/information-sciences/0020-025
 - [x] CRediT contribution statement.
 - [x] Code and data availability statement.
 - [x] Declaration of generative AI and AI-assisted technologies.
-- [x] The superseded IEEE manuscript is outside the current submission directory.
 
 ## Author confirmation before submission
 

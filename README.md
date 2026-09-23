@@ -21,7 +21,6 @@ This repository contains the Python implementations, archived numerical results,
 | `validation/` | Benchmark validation scripts, reduced-budget execution logs and smoke-test outputs. |
 | `tests/` | Automated checks of selected algorithm functions and archived result structures. |
 | `paper/Information_Sciences/` | Current Information Sciences CAS package: source, class assets, highlights, checklist, and compiled PDF. |
-| `paper/archive/IEEE_previous/` | Superseded IEEE-formatted manuscript retained only for provenance; do not submit it to Information Sciences. |
 | `REPRODUCIBILITY_STATUS.md`, `EXPERIMENT_EXECUTION_REPORT.md` | Record what was checked and what remains unreplicated. |
 | `THIRD_PARTY_BENCHMARK_PROVENANCE.md` | Provenance and verification details for the external CEC2017 implementation. |
 | `requirements.txt` | Python dependencies. |
@@ -167,7 +166,7 @@ The current manuscript package targets [Information Sciences](https://www.elsevi
 - [Submission checklist](paper/Information_Sciences/SUBMISSION_CHECKLIST.md)
 - [Research highlights](paper/Information_Sciences/highlights.txt)
 
-The package uses Elsevier's CAS single-column class and keeps all required source files at one folder level for Editorial Manager. Information Sciences uses single-anonymized review, so author details remain visible. The abstract (243 words), six keywords, four highlights, section hierarchy, front matter, numbered citations, appendix handling, CRediT metadata, AI-use declaration, cross-references, and compilation were checked. The earlier IEEE-formatted manuscript is archived under `paper/archive/IEEE_previous/` for provenance and must not be submitted to Information Sciences.
+The package uses Elsevier's CAS single-column class and keeps all required source files at one folder level for Editorial Manager. Information Sciences uses single-anonymized review, so author details remain visible. The abstract (243 words), six keywords, four highlights, section hierarchy, front matter, numbered citations, appendix handling, CRediT metadata, AI-use declaration, cross-references, and compilation were checked.
 
 When describing the numerical benchmark, attribute the Python wrapper to **Marcelo Lacerda** and the CEC2017 problem definitions to **Awad et al. (2016)**, using the upstream source and technical report cited above. Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Add the CREO paper's definitive journal citation and DOI after publication; none is asserted here.
 
