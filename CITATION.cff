@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its archived results, please cite the tagged release and the accompanying paper."
+title: "CREO-Research: Repair-Guided Evolutionary Optimisation"
+type: software
+version: 1.0.0
+date-released: 2026-09-22
+authors:
+  - family-names: "Vallavaraj"
+    given-names: "Alan Immanuel Benjamin"
+repository-code: "https://github.com/alanvallavaraj/CREO-Research"
+url: "https://github.com/alanvallavaraj/CREO-Research"
+abstract: >-
+  Research code, archived aggregate results, reproducibility checks, and an
+  Elsevier manuscript package for CREO evolutionary optimisation methods.
+keywords:
+  - evolutionary optimisation
+  - differential evolution
+  - repair operator
+  - CEC 2017
+license: "LicenseRef-Proprietary"

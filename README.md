@@ -18,7 +18,8 @@ This repository contains the Python implementations, archived numerical results,
 | `analysis/` | Reanalysis of the archived CSV summaries and generated descriptive tables. |
 | `validation/` | Benchmark validation scripts, reduced-budget execution logs and smoke-test outputs. |
 | `tests/` | Automated checks of selected algorithm functions and archived result structures. |
-| `paper/` | Revised manuscript: `CREO_REPOSITORY_PACKAGE.pdf` and `CREO_REPOSITORY_PACKAGE.tex`. |
+| `paper/CREO_REPOSITORY_PACKAGE.pdf`, `paper/CREO_REPOSITORY_PACKAGE.tex` | Earlier repository manuscript package, retained for provenance. |
+| `paper/CREO_Elsevier/` | Elsevier CAS submission package: source, class assets, highlights, and compiled PDF. |
 | `REPRODUCIBILITY_STATUS.md`, `EXPERIMENT_EXECUTION_REPORT.md` | Record what was checked and what remains unreplicated. |
 | `THIRD_PARTY_BENCHMARK_PROVENANCE.md` | Provenance and verification details for the external CEC2017 implementation. |
 | `requirements.txt` | Python dependencies. |
@@ -156,12 +157,16 @@ The original source snapshot was reported as commit `5e04fb2`; the expanded docu
 
 ## Manuscript and citation
 
-The manuscript is available at:
+The submission-formatted Elsevier CAS package is available at:
 
-- [`paper/CREO_REPOSITORY_PACKAGE.pdf`](paper/CREO_REPOSITORY_PACKAGE.pdf)
-- [`paper/CREO_REPOSITORY_PACKAGE.tex`](paper/CREO_REPOSITORY_PACKAGE.tex)
+- [Compiled Elsevier manuscript](paper/CREO_Elsevier/main.pdf)
+- [Elsevier LaTeX source](paper/CREO_Elsevier/main.tex)
+- [Package instructions](paper/CREO_Elsevier/README.md)
+- [Research highlights](paper/CREO_Elsevier/highlights.txt)
 
-When describing the numerical benchmark, attribute the Python wrapper to **Marcelo Lacerda** and the CEC2017 problem definitions to **Awad et al. (2016)**, using the upstream source and technical report cited above. Add the CREO paper's definitive journal citation and DOI here after publication; none is asserted in this README.
+The package uses Elsevier's CAS single-column class and keeps all required source files at one folder level for Editorial Manager. The section hierarchy, front matter, keywords, highlights, numbered citations, appendix handling, CRediT metadata, cross-references, and compilation were checked. The earlier repository manuscript files remain in `paper/` for provenance.
+
+When describing the numerical benchmark, attribute the Python wrapper to **Marcelo Lacerda** and the CEC2017 problem definitions to **Awad et al. (2016)**, using the upstream source and technical report cited above. Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Add the CREO paper's definitive journal citation and DOI after publication; none is asserted here.
 
 ## Licence and third-party code
 

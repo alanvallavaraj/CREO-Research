@@ -1,0 +1,7 @@
+Research highlights
+
+- Repair-induced displacement is reused as an evolutionary search direction.
+- A matched ablation isolates the effect of the repair-guidance term.
+- Fixed repair guidance helps selected low-dimensional benchmark functions.
+- Performance deteriorates when dimensionality increases from 10 to 30.
+
