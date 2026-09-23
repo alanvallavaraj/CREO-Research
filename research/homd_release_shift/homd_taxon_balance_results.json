@@ -1,0 +1,20 @@
+{
+  "definition": "One sequence sampled per HMT, 300 draws, same historical reference and queries; percentiles quantify sequence draw variation, not a confidence interval over independent HMTs.",
+  "known_hmts": 530,
+  "unknown_hmts": 74,
+  "auroc_5_50_95_percentile": [
+    0.8212,
+    0.836,
+    0.8503
+  ],
+  "known_hmt_accuracy_5_50_95_percentile": [
+    0.9358,
+    0.9443,
+    0.9528
+  ],
+  "unknown_acceptance_at_test_defined_90pct_known_coverage_5_50_95_percentile": [
+    0.4189,
+    0.4865,
+    0.527
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "11": {
+    "train_n": 1015,
+    "train_hmts": 656,
+    "cos": {
+      "known_n": 500,
+      "unknown_n": 500,
+      "known_taxon_accuracy": 0.946,
+      "known_detection_auroc": 0.9116,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.3,
+      "known_coverage_at_test_defined_threshold": 0.9
+    }
+  },
+  "22": {
+    "train_n": 1015,
+    "train_hmts": 656,
+    "cos": {
+      "known_n": 500,
+      "unknown_n": 500,
+      "known_taxon_accuracy": 0.95,
+      "known_detection_auroc": 0.9105,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.354,
+      "known_coverage_at_test_defined_threshold": 0.9
+    }
+  },
+  "33": {
+    "train_n": 1015,
+    "train_hmts": 656,
+    "cos": {
+      "known_n": 500,
+      "unknown_n": 500,
+      "known_taxon_accuracy": 0.962,
+      "known_detection_auroc": 0.923,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.248,
+      "known_coverage_at_test_defined_threshold": 0.9
+    }
+  },
+  "44": {
+    "train_n": 1015,
+    "train_hmts": 656,
+    "cos": {
+      "known_n": 500,
+      "unknown_n": 500,
+      "known_taxon_accuracy": 0.95,
+      "known_detection_auroc": 0.9404,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.206,
+      "known_coverage_at_test_defined_threshold": 0.9
+    }
+  },
+  "55": {
+    "train_n": 1015,
+    "train_hmts": 656,
+    "cos": {
+      "known_n": 500,
+      "unknown_n": 500,
+      "known_taxon_accuracy": 0.938,
+      "known_detection_auroc": 0.9436,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.158,
+      "known_coverage_at_test_defined_threshold": 0.9
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "exploratory_notice": "Pairing designed after inspecting initial benchmark; needs external validation. Same query IDs and old HMT labels, with full and V3-V4 reference representations.",
+  "n_known": 2236,
+  "n_new": 506,
+  "known_hmts": 333,
+  "new_hmts": 67,
+  "full_hmt_accuracy": 0.9002683363148479,
+  "amp_hmt_accuracy": 0.8023255813953488,
+  "absolute_accuracy_difference": 0.09794275491949911,
+  "paired_accuracy_contingency": {
+    "both_correct": 1763,
+    "full_only_correct": 250,
+    "amp_only_correct": 31,
+    "neither_correct": 192
+  },
+  "full_novelty_auroc": 0.8867145241007728,
+  "amp_novelty_auroc": 0.8477483083145368,
+  "bootstrap": {
+    "accuracy_full_minus_amp_95pct_hmt_cluster_bootstrap": [
+      0.05841295670088803,
+      0.09643034787415061,
+      0.14671412579632812
+    ],
+    "novelty_auc_full_minus_amp_95pct_hmt_cluster_bootstrap": [
+      -0.012790230591957557,
+      0.042480784549406125,
+      0.09296208864000861
+    ]
+  }
+}

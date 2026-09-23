@@ -1,0 +1,105 @@
+{
+  "notice": "Exploratory follow-on after inspecting linear CREO experiment; needs independent confirmation. All models train on v15.23 only.",
+  "train_n": 1730,
+  "calibration_n": 1719,
+  "temporal_n": 5835,
+  "baseline_auroc": 0.8352959335801093,
+  "methods": {
+    "logistic_l2": {
+      "calibration_auroc": 0.9213044606166982,
+      "temporal_auroc": 0.7844389091990015,
+      "known_coverage_at_historical_threshold": 0.9715005816207832,
+      "new_acceptance_at_historical_threshold": 0.4741506646971935,
+      "threshold": 0.5034880834614625,
+      "bootstrap_difference_vs_cosine": {
+        "baseline_auc_95pct_cluster_bootstrap": [
+          0.747,
+          0.8352,
+          0.9175
+        ],
+        "candidate_auc_95pct_cluster_bootstrap": [
+          0.662,
+          0.7865,
+          0.8886
+        ],
+        "candidate_minus_baseline_95pct_cluster_bootstrap": [
+          -0.1117,
+          -0.0509,
+          0.0026
+        ]
+      }
+    },
+    "random_forest": {
+      "calibration_auroc": 0.9645086642987837,
+      "temporal_auroc": 0.7654825390625225,
+      "known_coverage_at_historical_threshold": 0.9243892981775882,
+      "new_acceptance_at_historical_threshold": 0.4726735598227474,
+      "threshold": 0.47324416219422716,
+      "bootstrap_difference_vs_cosine": {
+        "baseline_auc_95pct_cluster_bootstrap": [
+          0.747,
+          0.8352,
+          0.9175
+        ],
+        "candidate_auc_95pct_cluster_bootstrap": [
+          0.6631,
+          0.7669,
+          0.8557
+        ],
+        "candidate_minus_baseline_95pct_cluster_bootstrap": [
+          -0.1371,
+          -0.0691,
+          -0.0066
+        ]
+      }
+    },
+    "extra_trees": {
+      "calibration_auroc": 0.9490594702896931,
+      "temporal_auroc": 0.7836478075674276,
+      "known_coverage_at_historical_threshold": 0.9503683598293913,
+      "new_acceptance_at_historical_threshold": 0.4726735598227474,
+      "threshold": 0.4466998895494017,
+      "bootstrap_difference_vs_cosine": {
+        "baseline_auc_95pct_cluster_bootstrap": [
+          0.747,
+          0.8352,
+          0.9175
+        ],
+        "candidate_auc_95pct_cluster_bootstrap": [
+          0.6673,
+          0.7851,
+          0.8888
+        ],
+        "candidate_minus_baseline_95pct_cluster_bootstrap": [
+          -0.1107,
+          -0.0509,
+          0.0042
+        ]
+      }
+    },
+    "hist_gradient_boosting": {
+      "calibration_auroc": 0.9641133272066432,
+      "temporal_auroc": 0.7885125456547972,
+      "known_coverage_at_historical_threshold": 0.9148894920511826,
+      "new_acceptance_at_historical_threshold": 0.4638109305760709,
+      "threshold": 0.4364999033627661,
+      "bootstrap_difference_vs_cosine": {
+        "baseline_auc_95pct_cluster_bootstrap": [
+          0.747,
+          0.8352,
+          0.9175
+        ],
+        "candidate_auc_95pct_cluster_bootstrap": [
+          0.6987,
+          0.7886,
+          0.8684
+        ],
+        "candidate_minus_baseline_95pct_cluster_bootstrap": [
+          -0.0977,
+          -0.047,
+          0.0031
+        ]
+      }
+    }
+  }
+}

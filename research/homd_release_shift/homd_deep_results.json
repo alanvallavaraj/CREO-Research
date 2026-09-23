@@ -1,0 +1,231 @@
+{
+  "sources": {
+    "homd": "https://www.homd.org/download/download/all",
+    "genome_derived": "https://zenodo.org/records/15209015"
+  },
+  "scope": "curated reference and genome-derived sequences, no patient-level validation",
+  "methods": {
+    "7mer": "binary 7-mer cosine nearest reference",
+    "margin": "top cosine minus top cosine from another HMT",
+    "edit": "global edit similarity of top five 7-mer candidates, not exhaustive BLAST",
+    "nb": "sklearn MultinomialNB 7-mer counts (HMT posterior not calibrated)",
+    "cutoff": "test-defined 90% known coverage is descriptive ranking, not deployable calibration"
+  },
+  "temporal": {
+    "cos": {
+      "known_n": 5158,
+      "unknown_n": 677,
+      "known_taxon_accuracy": 0.8984,
+      "known_detection_auroc": 0.8353,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.4165,
+      "known_coverage_at_test_defined_threshold": 0.9
+    },
+    "align": {
+      "known_n": 5158,
+      "unknown_n": 677,
+      "known_taxon_accuracy": 0.8577,
+      "known_detection_auroc": 0.8116,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.4357,
+      "known_coverage_at_test_defined_threshold": 0.9
+    },
+    "nb": {
+      "known_n": 5158,
+      "unknown_n": 677,
+      "known_taxon_accuracy": 0.2957,
+      "known_detection_auroc": 0.5472,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.8449,
+      "known_coverage_at_test_defined_threshold": 0.9
+    },
+    "cos_margin": {
+      "known_n": 5158,
+      "unknown_n": 677,
+      "known_taxon_accuracy": 0.8984,
+      "known_detection_auroc": 0.7412,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.6957,
+      "known_coverage_at_test_defined_threshold": 0.9
+    },
+    "align_margin": {
+      "known_n": 5158,
+      "unknown_n": 677,
+      "known_taxon_accuracy": 0.8577,
+      "known_detection_auroc": 0.6734,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.7917,
+      "known_coverage_at_test_defined_threshold": 0.9
+    },
+    "bootstrap_align_vs_cos": {
+      "baseline_auc_95pct_cluster_bootstrap": [
+        0.7515,
+        0.839,
+        0.9099
+      ],
+      "candidate_auc_95pct_cluster_bootstrap": [
+        0.7242,
+        0.8152,
+        0.888
+      ],
+      "candidate_minus_baseline_95pct_cluster_bootstrap": [
+        -0.0487,
+        -0.0235,
+        0.0009
+      ]
+    }
+  },
+  "v3v4": {
+    "primer": "341F CCTACGGGNGGCWGCAG, 805R GACTACHVGGGTATCTAATCC",
+    "old_yield": 1015,
+    "new_yield": 6508,
+    "exact_fragment_overlap_excluded": 3766,
+    "cos": {
+      "known_n": 2236,
+      "unknown_n": 506,
+      "known_taxon_accuracy": 0.8023,
+      "known_detection_auroc": 0.8477,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.3043,
+      "known_coverage_at_test_defined_threshold": 0.8998
+    },
+    "cos_margin": {
+      "known_n": 2236,
+      "unknown_n": 506,
+      "known_taxon_accuracy": 0.8023,
+      "known_detection_auroc": 0.5803,
+      "unknown_acceptance_at_test_defined_90pct_known_coverage": 1.0,
+      "known_coverage_at_test_defined_threshold": 1.0
+    }
+  },
+  "current_repeats": {
+    "11": {
+      "train_n": 4407,
+      "known_hmts": 278,
+      "unknown_hmts": 137,
+      "cos": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.97,
+        "known_detection_auroc": 0.9289,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.238,
+        "known_coverage_at_test_defined_threshold": 0.9
+      },
+      "cos_margin": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.97,
+        "known_detection_auroc": 0.7686,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.48,
+        "known_coverage_at_test_defined_threshold": 0.9
+      }
+    },
+    "22": {
+      "train_n": 4122,
+      "known_hmts": 269,
+      "unknown_hmts": 106,
+      "cos": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.972,
+        "known_detection_auroc": 0.9372,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.202,
+        "known_coverage_at_test_defined_threshold": 0.9
+      },
+      "cos_margin": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.972,
+        "known_detection_auroc": 0.7683,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.578,
+        "known_coverage_at_test_defined_threshold": 0.9
+      }
+    },
+    "33": {
+      "train_n": 4145,
+      "known_hmts": 273,
+      "unknown_hmts": 118,
+      "cos": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.984,
+        "known_detection_auroc": 0.9447,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.162,
+        "known_coverage_at_test_defined_threshold": 0.9
+      },
+      "cos_margin": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.984,
+        "known_detection_auroc": 0.8287,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.478,
+        "known_coverage_at_test_defined_threshold": 0.9
+      }
+    },
+    "44": {
+      "train_n": 4418,
+      "known_hmts": 266,
+      "unknown_hmts": 130,
+      "cos": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.986,
+        "known_detection_auroc": 0.9604,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.144,
+        "known_coverage_at_test_defined_threshold": 0.9
+      },
+      "cos_margin": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.986,
+        "known_detection_auroc": 0.7653,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.634,
+        "known_coverage_at_test_defined_threshold": 0.9
+      }
+    },
+    "55": {
+      "train_n": 4152,
+      "known_hmts": 286,
+      "unknown_hmts": 123,
+      "cos": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.97,
+        "known_detection_auroc": 0.9594,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.084,
+        "known_coverage_at_test_defined_threshold": 0.9
+      },
+      "cos_margin": {
+        "known_n": 500,
+        "unknown_n": 500,
+        "known_taxon_accuracy": 0.97,
+        "known_detection_auroc": 0.8201,
+        "unknown_acceptance_at_test_defined_90pct_known_coverage": 0.574,
+        "known_coverage_at_test_defined_threshold": 0.9
+      }
+    }
+  },
+  "genome_derived_inventory": {
+    "all": 7819,
+    "unique": 3989,
+    "length_excluded": 21,
+    "genus_absent_old": 21,
+    "evaluable_named_genus_n": 3947
+  },
+  "genome_derived_known_genus": {
+    "cos": {
+      "n": 3947,
+      "unique_genomes": 1744,
+      "genus_accuracy": 0.997,
+      "taxon_label_warning": "Genome taxa derive partly from HOMD; genus names may have shifted; not an independent species-level ground truth."
+    },
+    "align": {
+      "n": 3947,
+      "unique_genomes": 1744,
+      "genus_accuracy": 0.9767,
+      "taxon_label_warning": "Genome taxa derive partly from HOMD; genus names may have shifted; not an independent species-level ground truth."
+    }
+  },
+  "checks": {
+    "old_sequences": 1015,
+    "new_sequences": 6600,
+    "temporal_known_hmts": 530,
+    "temporal_unknown_hmts": 74,
+    "temporal_train_query_exact_overlap": 0,
+    "zenodo_fasta_sha256": "793db5908177dcc3998911cf487d10e5eaf4b17c06a71bf7ca52beafd42c1833"
+  }
+}

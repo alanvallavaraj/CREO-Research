@@ -1,0 +1,5 @@
+data/
+data
+__pycache__/
+*.log
+crossref_verified_candidates.json

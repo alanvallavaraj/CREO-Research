@@ -1,0 +1,2016 @@
+[
+  {
+    "doi": "10.1093/database/baq013",
+    "title": "The Human Oral Microbiome Database: a web accessible resource for investigating oral microbe taxonomic and genomic information",
+    "authors": [
+      [
+        "Chen",
+        "T."
+      ],
+      [
+        "Yu",
+        "W.-H."
+      ],
+      [
+        "Izard",
+        "J."
+      ],
+      [
+        "Baranova",
+        "O. V."
+      ],
+      [
+        "Lakshmanan",
+        "A."
+      ],
+      [
+        "Dewhirst",
+        "F. E."
+      ]
+    ],
+    "year": 2010,
+    "journal": "Database",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1093/database/baq013",
+    "number": 1
+  },
+  {
+    "doi": "10.1128/msystems.00187-18",
+    "title": "New Insights into Human Nostril Microbiome from the Expanded Human Oral Microbiome Database (eHOMD): a Resource for the Microbiome of the Human Aerodigestive Tract",
+    "authors": [
+      [
+        "Escapa",
+        "Isabel F."
+      ],
+      [
+        "Chen",
+        "Tsute"
+      ],
+      [
+        "Huang",
+        "Yanmei"
+      ],
+      [
+        "Gajare",
+        "Prasad"
+      ],
+      [
+        "Dewhirst",
+        "Floyd E."
+      ],
+      [
+        "Lemon",
+        "Katherine P."
+      ]
+    ],
+    "year": 2018,
+    "journal": "mSystems",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1128/msystems.00187-18",
+    "number": 2
+  },
+  {
+    "doi": "10.1186/s40168-020-00841-w",
+    "title": "Construction of habitat-specific training sets to achieve species-level assignment in 16S rRNA gene datasets",
+    "authors": [
+      [
+        "F. Escapa",
+        "Isabel"
+      ],
+      [
+        "Huang",
+        "Yanmei"
+      ],
+      [
+        "Chen",
+        "Tsute"
+      ],
+      [
+        "Lin",
+        "Maoxuan"
+      ],
+      [
+        "Kokaras",
+        "Alexis"
+      ],
+      [
+        "Dewhirst",
+        "Floyd E."
+      ],
+      [
+        "Lemon",
+        "Katherine P."
+      ]
+    ],
+    "year": 2020,
+    "journal": "Microbiome",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s40168-020-00841-w",
+    "number": 3
+  },
+  {
+    "doi": "10.1371/journal.pone.0019051",
+    "title": "CORE: A Phylogenetically-Curated 16S rDNA Database of the Core Oral Microbiome",
+    "authors": [
+      [
+        "Griffen",
+        "Ann L."
+      ],
+      [
+        "Beall",
+        "Clifford J."
+      ],
+      [
+        "Firestone",
+        "Noah D."
+      ],
+      [
+        "Gross",
+        "Erin L."
+      ],
+      [
+        "DiFranco",
+        "James M."
+      ],
+      [
+        "Hardman",
+        "Jori H."
+      ],
+      [
+        "Vriesendorp",
+        "Bastienne"
+      ],
+      [
+        "Faust",
+        "Russell A."
+      ],
+      [
+        "Janies",
+        "Daniel A."
+      ],
+      [
+        "Leys",
+        "Eugene J."
+      ]
+    ],
+    "year": 2011,
+    "journal": "PLoS ONE",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1371/journal.pone.0019051",
+    "number": 4
+  },
+  {
+    "doi": "10.1038/s41522-024-00634-1",
+    "title": "Saliva microbiome profiling by full-gene 16S rRNA Oxford Nanopore Technology versus Illumina MiSeq sequencing",
+    "authors": [
+      [
+        "Esberg",
+        "Anders"
+      ],
+      [
+        "Fries",
+        "Niklas"
+      ],
+      [
+        "Haworth",
+        "Simon"
+      ],
+      [
+        "Johansson",
+        "Ingegerd"
+      ]
+    ],
+    "year": 2024,
+    "journal": "npj Biofilms and Microbiomes",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41522-024-00634-1",
+    "number": 5
+  },
+  {
+    "doi": "10.1038/s41597-025-05050-4",
+    "title": "A curated bacterial and archaeal 16S rRNA Gene Oral Sequences dataset",
+    "authors": [
+      [
+        "Vázquez-González",
+        "Lara"
+      ],
+      [
+        "Regueira-Iglesias",
+        "Alba"
+      ],
+      [
+        "Balsa-Castro",
+        "Carlos"
+      ],
+      [
+        "Tomás",
+        "Inmaculada"
+      ],
+      [
+        "Carreira",
+        "María J."
+      ]
+    ],
+    "year": 2025,
+    "journal": "Scientific Data",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41597-025-05050-4",
+    "number": 6
+  },
+  {
+    "doi": "10.1093/bioadv/vbag166",
+    "title": "DeepTaxa: a hybrid CNN-BERT framework for 16S rRNA taxonomic classification",
+    "authors": [
+      [
+        "Salah",
+        "Rana"
+      ],
+      [
+        "AbdElaal",
+        "Khlood R"
+      ],
+      [
+        "Ghonaim",
+        "Lobna"
+      ],
+      [
+        "Awe",
+        "Olaitan I"
+      ],
+      [
+        "Moustafa",
+        "Ahmed"
+      ]
+    ],
+    "year": 2026,
+    "journal": "Bioinformatics Advances",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1093/bioadv/vbag166",
+    "number": 7
+  },
+  {
+    "doi": "10.1186/s40168-018-0521-5",
+    "title": "IDTAXA: a novel approach for accurate taxonomic classification of microbiome sequences",
+    "authors": [
+      [
+        "Murali",
+        "Adithya"
+      ],
+      [
+        "Bhargava",
+        "Aniruddha"
+      ],
+      [
+        "Wright",
+        "Erik S."
+      ]
+    ],
+    "year": 2018,
+    "journal": "Microbiome",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s40168-018-0521-5",
+    "number": 8
+  },
+  {
+    "doi": "10.1186/s12866-016-0891-4",
+    "title": "Evaluation of PacBio sequencing for full-length bacterial 16S rRNA gene classification",
+    "authors": [
+      [
+        "Wagner",
+        "Josef"
+      ],
+      [
+        "Coupland",
+        "Paul"
+      ],
+      [
+        "Browne",
+        "Hilary P."
+      ],
+      [
+        "Lawley",
+        "Trevor D."
+      ],
+      [
+        "Francis",
+        "Suzanna C."
+      ],
+      [
+        "Parkhill",
+        "Julian"
+      ]
+    ],
+    "year": 2016,
+    "journal": "BMC Microbiology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s12866-016-0891-4",
+    "number": 9
+  },
+  {
+    "doi": "10.1038/s41598-023-40799-x",
+    "title": "Metagenomic profiling pipelines improve taxonomic classification for 16S amplicon sequencing data",
+    "authors": [
+      [
+        "Odom",
+        "Aubrey R."
+      ],
+      [
+        "Faits",
+        "Tyler"
+      ],
+      [
+        "Castro-Nallar",
+        "Eduardo"
+      ],
+      [
+        "Crandall",
+        "Keith A."
+      ],
+      [
+        "Johnson",
+        "W. Evan"
+      ]
+    ],
+    "year": 2023,
+    "journal": "Scientific Reports",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41598-023-40799-x",
+    "number": 10
+  },
+  {
+    "doi": "10.1016/j.heliyon.2016.e00170",
+    "title": "Significant loss of sensitivity and specificity in the taxonomic classification occurs when short 16S rRNA gene sequences are used",
+    "authors": [
+      [
+        "Martínez-Porchas",
+        "Marcel"
+      ],
+      [
+        "Villalpando-Canchola",
+        "Enrique"
+      ],
+      [
+        "Vargas-Albores",
+        "Francisco"
+      ]
+    ],
+    "year": 2016,
+    "journal": "Heliyon",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1016/j.heliyon.2016.e00170",
+    "number": 11
+  },
+  {
+    "doi": "10.1371/journal.pone.0116106",
+    "title": "16S Classifier: A Tool for Fast and Accurate Taxonomic Classification of 16S rRNA Hypervariable Regions in Metagenomic Datasets",
+    "authors": [
+      [
+        "Chaudhary",
+        "Nikhil"
+      ],
+      [
+        "Sharma",
+        "Ashok K."
+      ],
+      [
+        "Agarwal",
+        "Piyush"
+      ],
+      [
+        "Gupta",
+        "Ankit"
+      ],
+      [
+        "Sharma",
+        "Vineet K."
+      ]
+    ],
+    "year": 2015,
+    "journal": "PLOS ONE",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1371/journal.pone.0116106",
+    "number": 12
+  },
+  {
+    "doi": "10.1186/s12859-015-0647-4",
+    "title": "Comparing K-mer based methods for improved classification of 16S sequences",
+    "authors": [
+      [
+        "Vinje",
+        "Hilde"
+      ],
+      [
+        "Liland",
+        "Kristian Hovde"
+      ],
+      [
+        "Almøy",
+        "Trygve"
+      ],
+      [
+        "Snipen",
+        "Lars"
+      ]
+    ],
+    "year": 2015,
+    "journal": "BMC Bioinformatics",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s12859-015-0647-4",
+    "number": 13
+  },
+  {
+    "doi": "10.3389/fmicb.2021.644487",
+    "title": "Beating Naive Bayes at Taxonomic Classification of 16S rRNA Gene Sequences",
+    "authors": [
+      [
+        "Ziemski",
+        "Michal"
+      ],
+      [
+        "Wisanwanichthan",
+        "Treepop"
+      ],
+      [
+        "Bokulich",
+        "Nicholas A."
+      ],
+      [
+        "Kaehler",
+        "Benjamin D."
+      ]
+    ],
+    "year": 2021,
+    "journal": "Frontiers in Microbiology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.3389/fmicb.2021.644487",
+    "number": 14
+  },
+  {
+    "doi": "10.1186/s12859-024-05930-3",
+    "title": "SpeciateIT and vSpeciateDB: novel, fast, and accurate per sequence 16S rRNA gene taxonomic classification of vaginal microbiota",
+    "authors": [
+      [
+        "Holm",
+        "Johanna B."
+      ],
+      [
+        "Gajer",
+        "Pawel"
+      ],
+      [
+        "Ravel",
+        "Jacques"
+      ]
+    ],
+    "year": 2024,
+    "journal": "BMC Bioinformatics",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s12859-024-05930-3",
+    "number": 15
+  },
+  {
+    "doi": "10.1371/journal.pone.0235498",
+    "title": "Classification of 16S rRNA reads is improved using a niche-specific database constructed by near-full length sequencing",
+    "authors": [
+      [
+        "Myer",
+        "Phillip R."
+      ],
+      [
+        "McDaneld",
+        "Tara G."
+      ],
+      [
+        "Kuehn",
+        "Larry A."
+      ],
+      [
+        "Dedonder",
+        "Keith D."
+      ],
+      [
+        "Apley",
+        "Michael D."
+      ],
+      [
+        "Capik",
+        "Sarah F."
+      ],
+      [
+        "Lubbers",
+        "Brian V."
+      ],
+      [
+        "Harhay",
+        "Gregory P."
+      ],
+      [
+        "Harhay",
+        "Dayna M."
+      ],
+      [
+        "Keele",
+        "John W."
+      ],
+      [
+        "Henniger",
+        "Madison T."
+      ],
+      [
+        "Clemmons",
+        "Brooke A."
+      ],
+      [
+        "Smith",
+        "Timothy P. L."
+      ]
+    ],
+    "year": 2020,
+    "journal": "PLOS ONE",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1371/journal.pone.0235498",
+    "number": 16
+  },
+  {
+    "doi": "10.3389/fbinf.2022.905489",
+    "title": "16S-ITGDB: An Integrated Database for Improving Species Classification of Prokaryotic 16S Ribosomal RNA Sequences",
+    "authors": [
+      [
+        "Hsieh",
+        "Yu-Peng"
+      ],
+      [
+        "Hung",
+        "Yuan-Mao"
+      ],
+      [
+        "Tsai",
+        "Mong-Hsun"
+      ],
+      [
+        "Lai",
+        "Liang-Chuan"
+      ],
+      [
+        "Chuang",
+        "Eric Y."
+      ]
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Bioinformatics",
+    "type": "journal-article",
+    "url": "https://doi.org/10.3389/fbinf.2022.905489",
+    "number": 17
+  },
+  {
+    "doi": "10.1186/s13059-026-04089-9",
+    "title": "LEMMIv2: benchmarking framework for metagenomic and 16S amplicon profilers with a catalogue of evaluated tools",
+    "authors": [
+      [
+        "Seppey",
+        "Mathieu"
+      ],
+      [
+        "Benavides",
+        "Andres"
+      ],
+      [
+        "Berkeley",
+        "Matthew R."
+      ],
+      [
+        "Manni",
+        "Mosè"
+      ],
+      [
+        "Zdobnov",
+        "Evgeny M."
+      ]
+    ],
+    "year": 2026,
+    "journal": "Genome Biology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s13059-026-04089-9",
+    "number": 18
+  },
+  {
+    "doi": "10.1038/nmeth.3869",
+    "title": "DADA2: High-resolution sample inference from Illumina amplicon data",
+    "authors": [
+      [
+        "Callahan",
+        "Benjamin J"
+      ],
+      [
+        "McMurdie",
+        "Paul J"
+      ],
+      [
+        "Rosen",
+        "Michael J"
+      ],
+      [
+        "Han",
+        "Andrew W"
+      ],
+      [
+        "Johnson",
+        "Amy Jo A"
+      ],
+      [
+        "Holmes",
+        "Susan P"
+      ]
+    ],
+    "year": 2016,
+    "journal": "Nature Methods",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/nmeth.3869",
+    "number": 19
+  },
+  {
+    "doi": "10.1093/bioinformatics/btq461",
+    "title": "Search and clustering orders of magnitude faster than BLAST",
+    "authors": [
+      [
+        "Edgar",
+        "Robert C."
+      ]
+    ],
+    "year": 2010,
+    "journal": "Bioinformatics",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1093/bioinformatics/btq461",
+    "number": 20
+  },
+  {
+    "doi": "10.1186/s13059-019-1891-0",
+    "title": "Improved metagenomic analysis with Kraken 2",
+    "authors": [
+      [
+        "Wood",
+        "Derrick E."
+      ],
+      [
+        "Lu",
+        "Jennifer"
+      ],
+      [
+        "Langmead",
+        "Ben"
+      ]
+    ],
+    "year": 2019,
+    "journal": "Genome Biology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s13059-019-1891-0",
+    "number": 21
+  },
+  {
+    "doi": "10.1038/nmeth.f.303",
+    "title": "QIIME allows analysis of high-throughput community sequencing data",
+    "authors": [
+      [
+        "Caporaso",
+        "J Gregory"
+      ],
+      [
+        "Kuczynski",
+        "Justin"
+      ],
+      [
+        "Stombaugh",
+        "Jesse"
+      ],
+      [
+        "Bittinger",
+        "Kyle"
+      ],
+      [
+        "Bushman",
+        "Frederic D"
+      ],
+      [
+        "Costello",
+        "Elizabeth K"
+      ],
+      [
+        "Fierer",
+        "Noah"
+      ],
+      [
+        "Peña",
+        "Antonio Gonzalez"
+      ],
+      [
+        "Goodrich",
+        "Julia K"
+      ],
+      [
+        "Gordon",
+        "Jeffrey I"
+      ],
+      [
+        "Huttley",
+        "Gavin A"
+      ],
+      [
+        "Kelley",
+        "Scott T"
+      ],
+      [
+        "Knights",
+        "Dan"
+      ],
+      [
+        "Koenig",
+        "Jeremy E"
+      ],
+      [
+        "Ley",
+        "Ruth E"
+      ],
+      [
+        "Lozupone",
+        "Catherine A"
+      ],
+      [
+        "McDonald",
+        "Daniel"
+      ],
+      [
+        "Muegge",
+        "Brian D"
+      ],
+      [
+        "Pirrung",
+        "Meg"
+      ],
+      [
+        "Reeder",
+        "Jens"
+      ],
+      [
+        "Sevinsky",
+        "Joel R"
+      ],
+      [
+        "Turnbaugh",
+        "Peter J"
+      ],
+      [
+        "Walters",
+        "William A"
+      ],
+      [
+        "Widmann",
+        "Jeremy"
+      ],
+      [
+        "Yatsunenko",
+        "Tanya"
+      ],
+      [
+        "Zaneveld",
+        "Jesse"
+      ],
+      [
+        "Knight",
+        "Rob"
+      ]
+    ],
+    "year": 2010,
+    "journal": "Nature Methods",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/nmeth.f.303",
+    "number": 22
+  },
+  {
+    "doi": "10.1186/s40168-018-0535-z",
+    "title": "High-resolution ISR amplicon sequencing reveals personalized oral microbiome",
+    "authors": [
+      [
+        "Mukherjee",
+        "Chiranjit"
+      ],
+      [
+        "Beall",
+        "Clifford J."
+      ],
+      [
+        "Griffen",
+        "Ann L."
+      ],
+      [
+        "Leys",
+        "Eugene J."
+      ]
+    ],
+    "year": 2018,
+    "journal": "Microbiome",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s40168-018-0535-z",
+    "number": 23
+  },
+  {
+    "doi": "10.1099/ijsem.0.006747",
+    "title": "Setting new boundaries of 16S rRNA gene identity for prokaryotic taxonomy",
+    "authors": [
+      [
+        "Hackmann",
+        "Timothy J."
+      ]
+    ],
+    "year": 2025,
+    "journal": "International Journal of Systematic and Evolutionary Microbiology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1099/ijsem.0.006747",
+    "number": 24
+  },
+  {
+    "doi": "10.1038/s41597-024-02916-x",
+    "title": "Multi-cohort shotgun metagenomic analysis of oral and gut microbiota overlap in healthy adults",
+    "authors": [
+      [
+        "Rashidi",
+        "Armin"
+      ],
+      [
+        "Gem",
+        "Hakan"
+      ],
+      [
+        "McLean",
+        "Jeffrey S."
+      ],
+      [
+        "Kerns",
+        "Kristopher"
+      ],
+      [
+        "Dean",
+        "David R."
+      ],
+      [
+        "Dey",
+        "Neelendu"
+      ],
+      [
+        "Minot",
+        "Samuel"
+      ]
+    ],
+    "year": 2024,
+    "journal": "Scientific Data",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41597-024-02916-x",
+    "number": 25
+  },
+  {
+    "doi": "10.1016/j.chom.2025.10.001",
+    "title": "A high-quality genomic catalog of the human oral microbiome broadens its phylogeny and clinical insights",
+    "authors": [
+      [
+        "Cha",
+        "Jun Hyung"
+      ],
+      [
+        "Kim",
+        "Nayeon"
+      ],
+      [
+        "Ma",
+        "Junyeong"
+      ],
+      [
+        "Lee",
+        "Sungho"
+      ],
+      [
+        "Koh",
+        "Geon"
+      ],
+      [
+        "Yang",
+        "Sunmo"
+      ],
+      [
+        "Beck",
+        "Samuel"
+      ],
+      [
+        "Byeon",
+        "Iksu"
+      ],
+      [
+        "Lee",
+        "Byungwook"
+      ],
+      [
+        "Lee",
+        "Insuk"
+      ]
+    ],
+    "year": 2025,
+    "journal": "Cell Host & Microbe",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1016/j.chom.2025.10.001",
+    "number": 26
+  },
+  {
+    "doi": "10.1016/s0045-7825(99)00389-8",
+    "title": "An efficient constraint handling method for genetic algorithms",
+    "authors": [
+      [
+        "Deb",
+        "Kalyanmoy"
+      ]
+    ],
+    "year": 2000,
+    "journal": "Computer Methods in Applied Mechanics and Engineering",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1016/s0045-7825(99)00389-8",
+    "number": 27
+  },
+  {
+    "doi": "10.1109/tevc.2006.872133",
+    "title": "Self-Adapting Control Parameters in Differential Evolution: A Comparative Study on Numerical Benchmark Problems",
+    "authors": [
+      [
+        "Brest",
+        "Janez"
+      ],
+      [
+        "Greiner",
+        "Sao"
+      ],
+      [
+        "Boskovic",
+        "Borko"
+      ],
+      [
+        "Mernik",
+        "Marjan"
+      ],
+      [
+        "Zumer",
+        "Viljem"
+      ]
+    ],
+    "year": 2006,
+    "journal": "IEEE Transactions on Evolutionary Computation",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1109/tevc.2006.872133",
+    "number": 28
+  },
+  {
+    "doi": "10.1109/tevc.2008.927706",
+    "title": "Differential Evolution Algorithm With Strategy Adaptation for Global Numerical Optimization",
+    "authors": [
+      [
+        "Qin",
+        "A.K."
+      ],
+      [
+        "Huang",
+        "V.L."
+      ],
+      [
+        "Suganthan",
+        "P.N."
+      ]
+    ],
+    "year": 2009,
+    "journal": "IEEE Transactions on Evolutionary Computation",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1109/tevc.2008.927706",
+    "number": 29
+  },
+  {
+    "doi": "10.1109/tevc.2005.857610",
+    "title": "Comprehensive learning particle swarm optimizer for global optimization of multimodal functions",
+    "authors": [
+      [
+        "Liang",
+        "J.J."
+      ],
+      [
+        "Qin",
+        "A.K."
+      ],
+      [
+        "Suganthan",
+        "P.N."
+      ],
+      [
+        "Baskar",
+        "S."
+      ]
+    ],
+    "year": 2006,
+    "journal": "IEEE Transactions on Evolutionary Computation",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1109/tevc.2005.857610",
+    "number": 30
+  },
+  {
+    "doi": "10.1109/tevc.2008.2009457",
+    "title": "Differential Evolution Using a Neighborhood-Based Mutation Operator",
+    "authors": [
+      [
+        "Das",
+        "Swagatam"
+      ],
+      [
+        "Abraham",
+        "Ajith"
+      ],
+      [
+        "Chakraborty",
+        "Uday K."
+      ],
+      [
+        "Konar",
+        "Amit"
+      ]
+    ],
+    "year": 2009,
+    "journal": "IEEE Transactions on Evolutionary Computation",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1109/tevc.2008.2009457",
+    "number": 31
+  },
+  {
+    "doi": "10.1038/s41598-023-32027-3",
+    "title": "An improved hyperparameter optimization framework for AutoML systems using evolutionary algorithms",
+    "authors": [
+      [
+        "Vincent",
+        "Amala Mary"
+      ],
+      [
+        "Jidesh",
+        "P."
+      ]
+    ],
+    "year": 2023,
+    "journal": "Scientific Reports",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41598-023-32027-3",
+    "number": 32
+  },
+  {
+    "doi": "10.2307/2531595",
+    "title": "Comparing the Areas under Two or More Correlated Receiver Operating Characteristic Curves: A Nonparametric Approach",
+    "authors": [
+      [
+        "DeLong",
+        "Elizabeth R."
+      ],
+      [
+        "DeLong",
+        "David M."
+      ],
+      [
+        "Clarke-Pearson",
+        "Daniel L."
+      ]
+    ],
+    "year": 1988,
+    "journal": "Biometrics",
+    "type": "journal-article",
+    "url": "https://doi.org/10.2307/2531595",
+    "number": 33
+  },
+  {
+    "doi": "10.1371/journal.pcbi.1010467",
+    "title": "Investigating differential abundance methods in microbiome data: A benchmark study",
+    "authors": [
+      [
+        "Cappellato",
+        "Marco"
+      ],
+      [
+        "Baruzzo",
+        "Giacomo"
+      ],
+      [
+        "Di Camillo",
+        "Barbara"
+      ]
+    ],
+    "year": 2022,
+    "journal": "PLOS Computational Biology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1371/journal.pcbi.1010467",
+    "number": 34
+  },
+  {
+    "doi": "10.1093/bioinformatics/btw099",
+    "title": "A web application for sample size and power calculation in case-control microbiome studies",
+    "authors": [
+      [
+        "Mattiello",
+        "Federico"
+      ],
+      [
+        "Verbist",
+        "Bie"
+      ],
+      [
+        "Faust",
+        "Karoline"
+      ],
+      [
+        "Raes",
+        "Jeroen"
+      ],
+      [
+        "Shannon",
+        "William D."
+      ],
+      [
+        "Bijnens",
+        "Luc"
+      ],
+      [
+        "Thas",
+        "Olivier"
+      ]
+    ],
+    "year": 2016,
+    "journal": "Bioinformatics",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1093/bioinformatics/btw099",
+    "number": 35
+  },
+  {
+    "doi": "10.1128/aem.00062-07",
+    "title": "Naïve Bayesian Classifier for Rapid Assignment of rRNA Sequences into the New Bacterial Taxonomy",
+    "authors": [
+      [
+        "Wang",
+        "Qiong"
+      ],
+      [
+        "Garrity",
+        "George M."
+      ],
+      [
+        "Tiedje",
+        "James M."
+      ],
+      [
+        "Cole",
+        "James R."
+      ]
+    ],
+    "year": 2007,
+    "journal": "Applied and Environmental Microbiology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1128/aem.00062-07",
+    "number": 36
+  },
+  {
+    "doi": "10.1093/nar/gks1219",
+    "title": "The SILVA ribosomal RNA gene database project: improved data processing and web-based tools",
+    "authors": [
+      [
+        "Quast",
+        "Christian"
+      ],
+      [
+        "Pruesse",
+        "Elmar"
+      ],
+      [
+        "Yilmaz",
+        "Pelin"
+      ],
+      [
+        "Gerken",
+        "Jan"
+      ],
+      [
+        "Schweer",
+        "Timmy"
+      ],
+      [
+        "Yarza",
+        "Pablo"
+      ],
+      [
+        "Peplies",
+        "Jörg"
+      ],
+      [
+        "Glöckner",
+        "Frank Oliver"
+      ]
+    ],
+    "year": 2012,
+    "journal": "Nucleic Acids Research",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1093/nar/gks1219",
+    "number": 37
+  },
+  {
+    "doi": "10.1038/s41587-023-01845-1",
+    "title": "Greengenes2 unifies microbial data in a single reference tree",
+    "authors": [
+      [
+        "McDonald",
+        "Daniel"
+      ],
+      [
+        "Jiang",
+        "Yueyu"
+      ],
+      [
+        "Balaban",
+        "Metin"
+      ],
+      [
+        "Cantrell",
+        "Kalen"
+      ],
+      [
+        "Zhu",
+        "Qiyun"
+      ],
+      [
+        "Gonzalez",
+        "Antonio"
+      ],
+      [
+        "Morton",
+        "James T."
+      ],
+      [
+        "Nicolaou",
+        "Giorgia"
+      ],
+      [
+        "Parks",
+        "Donovan H."
+      ],
+      [
+        "Karst",
+        "Søren M."
+      ],
+      [
+        "Albertsen",
+        "Mads"
+      ],
+      [
+        "Hugenholtz",
+        "Philip"
+      ],
+      [
+        "DeSantis",
+        "Todd"
+      ],
+      [
+        "Song",
+        "Se Jin"
+      ],
+      [
+        "Bartko",
+        "Andrew"
+      ],
+      [
+        "Havulinna",
+        "Aki S."
+      ],
+      [
+        "Jousilahti",
+        "Pekka"
+      ],
+      [
+        "Cheng",
+        "Susan"
+      ],
+      [
+        "Inouye",
+        "Michael"
+      ],
+      [
+        "Niiranen",
+        "Teemu"
+      ],
+      [
+        "Jain",
+        "Mohit"
+      ],
+      [
+        "Salomaa",
+        "Veikko"
+      ],
+      [
+        "Lahti",
+        "Leo"
+      ],
+      [
+        "Mirarab",
+        "Siavash"
+      ],
+      [
+        "Knight",
+        "Rob"
+      ]
+    ],
+    "year": 2023,
+    "journal": "Nature Biotechnology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41587-023-01845-1",
+    "number": 38
+  },
+  {
+    "doi": "10.1128/msystems.00133-16",
+    "title": "SSUnique: Detecting Sequence Novelty in Microbiome Surveys",
+    "authors": [
+      [
+        "Lynch",
+        "Michael D. J."
+      ],
+      [
+        "Neufeld",
+        "Josh D."
+      ]
+    ],
+    "year": 2016,
+    "journal": "mSystems",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1128/msystems.00133-16",
+    "number": 39
+  },
+  {
+    "doi": "10.1128/aem.01541-09",
+    "title": "Introducing mothur: Open-Source, Platform-Independent, Community-Supported Software for Describing and Comparing Microbial Communities",
+    "authors": [
+      [
+        "Schloss",
+        "Patrick D."
+      ],
+      [
+        "Westcott",
+        "Sarah L."
+      ],
+      [
+        "Ryabin",
+        "Thomas"
+      ],
+      [
+        "Hall",
+        "Justine R."
+      ],
+      [
+        "Hartmann",
+        "Martin"
+      ],
+      [
+        "Hollister",
+        "Emily B."
+      ],
+      [
+        "Lesniewski",
+        "Ryan A."
+      ],
+      [
+        "Oakley",
+        "Brian B."
+      ],
+      [
+        "Parks",
+        "Donovan H."
+      ],
+      [
+        "Robinson",
+        "Courtney J."
+      ],
+      [
+        "Sahl",
+        "Jason W."
+      ],
+      [
+        "Stres",
+        "Blaz"
+      ],
+      [
+        "Thallinger",
+        "Gerhard G."
+      ],
+      [
+        "Van Horn",
+        "David J."
+      ],
+      [
+        "Weber",
+        "Carolyn F."
+      ]
+    ],
+    "year": 2009,
+    "journal": "Applied and Environmental Microbiology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1128/aem.01541-09",
+    "number": 40
+  },
+  {
+    "doi": "10.1038/nmeth.2276",
+    "title": "Quality-filtering vastly improves diversity estimates from Illumina amplicon sequencing",
+    "authors": [
+      [
+        "Bokulich",
+        "Nicholas A"
+      ],
+      [
+        "Subramanian",
+        "Sathish"
+      ],
+      [
+        "Faith",
+        "Jeremiah J"
+      ],
+      [
+        "Gevers",
+        "Dirk"
+      ],
+      [
+        "Gordon",
+        "Jeffrey I"
+      ],
+      [
+        "Knight",
+        "Rob"
+      ],
+      [
+        "Mills",
+        "David A"
+      ],
+      [
+        "Caporaso",
+        "J Gregory"
+      ]
+    ],
+    "year": 2013,
+    "journal": "Nature Methods",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/nmeth.2276",
+    "number": 41
+  },
+  {
+    "doi": "10.1093/bioinformatics/btw753",
+    "title": "Edlib: a C/C ++ library for fast, exact sequence alignment using edit distance",
+    "authors": [
+      [
+        "Šošić",
+        "Martin"
+      ],
+      [
+        "Šikić",
+        "Mile"
+      ]
+    ],
+    "year": 2017,
+    "journal": "Bioinformatics",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1093/bioinformatics/btw753",
+    "number": 42
+  },
+  {
+    "doi": "10.1093/nar/gks808",
+    "title": "Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next-generation sequencing-based diversity studies",
+    "authors": [
+      [
+        "Klindworth",
+        "Anna"
+      ],
+      [
+        "Pruesse",
+        "Elmar"
+      ],
+      [
+        "Schweer",
+        "Timmy"
+      ],
+      [
+        "Peplies",
+        "Jörg"
+      ],
+      [
+        "Quast",
+        "Christian"
+      ],
+      [
+        "Horn",
+        "Matthias"
+      ],
+      [
+        "Glöckner",
+        "Frank Oliver"
+      ]
+    ],
+    "year": 2012,
+    "journal": "Nucleic Acids Research",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1093/nar/gks808",
+    "number": 43
+  },
+  {
+    "doi": "10.1038/s41587-019-0209-9",
+    "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+    "authors": [
+      [
+        "Bolyen",
+        "Evan"
+      ],
+      [
+        "Rideout",
+        "Jai Ram"
+      ],
+      [
+        "Dillon",
+        "Matthew R."
+      ],
+      [
+        "Bokulich",
+        "Nicholas A."
+      ],
+      [
+        "Abnet",
+        "Christian C."
+      ],
+      [
+        "Al-Ghalith",
+        "Gabriel A."
+      ],
+      [
+        "Alexander",
+        "Harriet"
+      ],
+      [
+        "Alm",
+        "Eric J."
+      ],
+      [
+        "Arumugam",
+        "Manimozhiyan"
+      ],
+      [
+        "Asnicar",
+        "Francesco"
+      ],
+      [
+        "Bai",
+        "Yang"
+      ],
+      [
+        "Bisanz",
+        "Jordan E."
+      ],
+      [
+        "Bittinger",
+        "Kyle"
+      ],
+      [
+        "Brejnrod",
+        "Asker"
+      ],
+      [
+        "Brislawn",
+        "Colin J."
+      ],
+      [
+        "Brown",
+        "C. Titus"
+      ],
+      [
+        "Callahan",
+        "Benjamin J."
+      ],
+      [
+        "Caraballo-Rodríguez",
+        "Andrés Mauricio"
+      ],
+      [
+        "Chase",
+        "John"
+      ],
+      [
+        "Cope",
+        "Emily K."
+      ],
+      [
+        "Da Silva",
+        "Ricardo"
+      ],
+      [
+        "Diener",
+        "Christian"
+      ],
+      [
+        "Dorrestein",
+        "Pieter C."
+      ],
+      [
+        "Douglas",
+        "Gavin M."
+      ],
+      [
+        "Durall",
+        "Daniel M."
+      ],
+      [
+        "Duvallet",
+        "Claire"
+      ],
+      [
+        "Edwardson",
+        "Christian F."
+      ],
+      [
+        "Ernst",
+        "Madeleine"
+      ],
+      [
+        "Estaki",
+        "Mehrbod"
+      ],
+      [
+        "Fouquier",
+        "Jennifer"
+      ],
+      [
+        "Gauglitz",
+        "Julia M."
+      ],
+      [
+        "Gibbons",
+        "Sean M."
+      ],
+      [
+        "Gibson",
+        "Deanna L."
+      ],
+      [
+        "Gonzalez",
+        "Antonio"
+      ],
+      [
+        "Gorlick",
+        "Kestrel"
+      ],
+      [
+        "Guo",
+        "Jiarong"
+      ],
+      [
+        "Hillmann",
+        "Benjamin"
+      ],
+      [
+        "Holmes",
+        "Susan"
+      ],
+      [
+        "Holste",
+        "Hannes"
+      ],
+      [
+        "Huttenhower",
+        "Curtis"
+      ],
+      [
+        "Huttley",
+        "Gavin A."
+      ],
+      [
+        "Janssen",
+        "Stefan"
+      ],
+      [
+        "Jarmusch",
+        "Alan K."
+      ],
+      [
+        "Jiang",
+        "Lingjing"
+      ],
+      [
+        "Kaehler",
+        "Benjamin D."
+      ],
+      [
+        "Kang",
+        "Kyo Bin"
+      ],
+      [
+        "Keefe",
+        "Christopher R."
+      ],
+      [
+        "Keim",
+        "Paul"
+      ],
+      [
+        "Kelley",
+        "Scott T."
+      ],
+      [
+        "Knights",
+        "Dan"
+      ],
+      [
+        "Koester",
+        "Irina"
+      ],
+      [
+        "Kosciolek",
+        "Tomasz"
+      ],
+      [
+        "Kreps",
+        "Jorden"
+      ],
+      [
+        "Langille",
+        "Morgan G. I."
+      ],
+      [
+        "Lee",
+        "Joslynn"
+      ],
+      [
+        "Ley",
+        "Ruth"
+      ],
+      [
+        "Liu",
+        "Yong-Xin"
+      ],
+      [
+        "Loftfield",
+        "Erikka"
+      ],
+      [
+        "Lozupone",
+        "Catherine"
+      ],
+      [
+        "Maher",
+        "Massoud"
+      ],
+      [
+        "Marotz",
+        "Clarisse"
+      ],
+      [
+        "Martin",
+        "Bryan D."
+      ],
+      [
+        "McDonald",
+        "Daniel"
+      ],
+      [
+        "McIver",
+        "Lauren J."
+      ],
+      [
+        "Melnik",
+        "Alexey V."
+      ],
+      [
+        "Metcalf",
+        "Jessica L."
+      ],
+      [
+        "Morgan",
+        "Sydney C."
+      ],
+      [
+        "Morton",
+        "Jamie T."
+      ],
+      [
+        "Naimey",
+        "Ahmad Turan"
+      ],
+      [
+        "Navas-Molina",
+        "Jose A."
+      ],
+      [
+        "Nothias",
+        "Louis Felix"
+      ],
+      [
+        "Orchanian",
+        "Stephanie B."
+      ],
+      [
+        "Pearson",
+        "Talima"
+      ],
+      [
+        "Peoples",
+        "Samuel L."
+      ],
+      [
+        "Petras",
+        "Daniel"
+      ],
+      [
+        "Preuss",
+        "Mary Lai"
+      ],
+      [
+        "Pruesse",
+        "Elmar"
+      ],
+      [
+        "Rasmussen",
+        "Lasse Buur"
+      ],
+      [
+        "Rivers",
+        "Adam"
+      ],
+      [
+        "Robeson",
+        "Michael S."
+      ],
+      [
+        "Rosenthal",
+        "Patrick"
+      ],
+      [
+        "Segata",
+        "Nicola"
+      ],
+      [
+        "Shaffer",
+        "Michael"
+      ],
+      [
+        "Shiffer",
+        "Arron"
+      ],
+      [
+        "Sinha",
+        "Rashmi"
+      ],
+      [
+        "Song",
+        "Se Jin"
+      ],
+      [
+        "Spear",
+        "John R."
+      ],
+      [
+        "Swafford",
+        "Austin D."
+      ],
+      [
+        "Thompson",
+        "Luke R."
+      ],
+      [
+        "Torres",
+        "Pedro J."
+      ],
+      [
+        "Trinh",
+        "Pauline"
+      ],
+      [
+        "Tripathi",
+        "Anupriya"
+      ],
+      [
+        "Turnbaugh",
+        "Peter J."
+      ],
+      [
+        "Ul-Hasan",
+        "Sabah"
+      ],
+      [
+        "van der Hooft",
+        "Justin J. J."
+      ],
+      [
+        "Vargas",
+        "Fernando"
+      ],
+      [
+        "Vázquez-Baeza",
+        "Yoshiki"
+      ],
+      [
+        "Vogtmann",
+        "Emily"
+      ],
+      [
+        "von Hippel",
+        "Max"
+      ],
+      [
+        "Walters",
+        "William"
+      ],
+      [
+        "Wan",
+        "Yunhu"
+      ],
+      [
+        "Wang",
+        "Mingxun"
+      ],
+      [
+        "Warren",
+        "Jonathan"
+      ],
+      [
+        "Weber",
+        "Kyle C."
+      ],
+      [
+        "Williamson",
+        "Charles H. D."
+      ],
+      [
+        "Willis",
+        "Amy D."
+      ],
+      [
+        "Xu",
+        "Zhenjiang Zech"
+      ],
+      [
+        "Zaneveld",
+        "Jesse R."
+      ],
+      [
+        "Zhang",
+        "Yilong"
+      ],
+      [
+        "Zhu",
+        "Qiyun"
+      ],
+      [
+        "Knight",
+        "Rob"
+      ],
+      [
+        "Caporaso",
+        "J. Gregory"
+      ]
+    ],
+    "year": 2019,
+    "journal": "Nature Biotechnology",
+    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41587-019-0209-9",
+    "number": 44
+  },
+  {
+    "doi": "10.1023/A:1008202821328",
+    "title": "Differential Evolution – A Simple and Efficient Heuristic for Global Optimization over Continuous Spaces",
+    "authors": [
+      [
+        "Storn",
+        "Rainer"
+      ],
+      [
+        "Price",
+        "Kenneth"
+      ]
+    ],
+    "year": 1997,
+    "journal": "Journal of Global Optimization",
+    "url": "https://doi.org/10.1023/A:1008202821328",
+    "verification": "Springer publisher page",
+    "number": 45
+  },
+  {
+    "doi": null,
+    "title": "Random Search for Hyper-Parameter Optimization",
+    "authors": [
+      [
+        "Bergstra",
+        "James"
+      ],
+      [
+        "Bengio",
+        "Yoshua"
+      ]
+    ],
+    "year": 2012,
+    "journal": "Journal of Machine Learning Research 13:281–305",
+    "url": "https://jmlr.org/papers/v13/bergstra12a.html",
+    "verification": "JMLR publisher page",
+    "number": 46
+  }
+]
