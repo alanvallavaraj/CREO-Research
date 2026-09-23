@@ -9,7 +9,7 @@ Official guide: <https://www.elsevier.com/journals/information-sciences/0020-025
 
 - [x] Elsevier CAS single-column LaTeX source and compiled PDF.
 - [x] Single-anonymized review: author name, affiliation, and email remain visible.
-- [x] Abstract: 243 words (maximum 250).
+- [x] Abstract: 178 words (within the submission portal's 200-word maximum).
 - [x] Keywords: 6 (maximum 6).
 - [x] Highlights: 4 bullets (required range 3–5), each no more than 85 characters including spaces.
 - [x] Heading hierarchy uses only numbered `section` and `subsection` levels in the article body.
