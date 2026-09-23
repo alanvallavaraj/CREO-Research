@@ -5,7 +5,7 @@ This release tailors the current manuscript package for **Information Sciences**
 ## Journal-specific changes
 
 - Moves the current CAS manuscript package to `paper/Information_Sciences/`.
-- Archives the superseded IEEE manuscript under `paper/archive/IEEE_previous/`.
+- Removes the superseded IEEE-formatted manuscript so the repository contains only the current Information Sciences submission package.
 - Confirms the 250-word abstract limit, maximum of six keywords, 3–5 highlights with an 85-character limit, and single-anonymized review format.
 - Adds the required generative-AI-use declaration and journal-specific submission checklist.
 - Updates the code/data availability statement with the canonical repository URL and its private-at-submission status.
