@@ -2,7 +2,7 @@
 
 Target journal: **Applied Soft Computing** (Elsevier)  
 ISSN: **1568-4946**  
-Guide checked: **23 September 2026**  
+Guide checked: **6 October 2026**  
 Official guide: <https://www.sciencedirect.com/journal/applied-soft-computing/guide-for-authors>
 
 ## Verified in this package
@@ -33,4 +33,10 @@ Official guide: <https://www.sciencedirect.com/journal/applied-soft-computing/gu
 
 ## Heading rule used
 
-The article body follows a simple hierarchy: `section` for main divisions and `subsection` for one nested level. No `subsubsection` or deeper headings are used. Unnumbered statements such as Code and Data Availability and the AI declaration use `section*`.
+The manuscript uses only article-body `section` and `subsection` levels. The appendix uses `section` headings under `\appendix`, which is the standard CAS approach.
+
+## Notes
+
+- The repository is public. If blind review requirements change, replace the repository URL with an anonymized archive before submission.
+- `main.tex` is self-contained with an embedded `thebibliography`; no `.bib` file is needed.
+- The PDF was compiled from this folder with `pdflatex main.tex` run twice.
