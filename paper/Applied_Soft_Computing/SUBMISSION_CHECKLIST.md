@@ -1,9 +1,9 @@
-# Information Sciences submission checklist
+# Applied Soft Computing submission checklist
 
-Target journal: **Information Sciences** (Elsevier)  
-ISSN: **0020-0255**  
+Target journal: **Applied Soft Computing** (Elsevier)  
+ISSN: **1568-4946**  
 Guide checked: **23 September 2026**  
-Official guide: <https://www.elsevier.com/journals/information-sciences/0020-0255/guide-for-authors>
+Official guide: <https://www.sciencedirect.com/journal/applied-soft-computing/guide-for-authors>
 
 ## Verified in this package
 

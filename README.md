@@ -1,6 +1,6 @@
 # CREO-Research: Repair-Guided Evolutionary Optimisation
 
-This repository contains the Python implementations, archived numerical results, analysis scripts, verification materials, and manuscript for **Repair-Guided Evolutionary Optimisation (CREO)**, including the Differential Evolution hybrid **CREO-DE**. The current manuscript package is prepared for **Information Sciences** (Elsevier, ISSN 0020-0255).
+This repository contains the Python implementations, archived numerical results, analysis scripts, verification materials, and manuscript for **Repair-Guided Evolutionary Optimisation (CREO)**, including the Differential Evolution hybrid **CREO-DE**. The current manuscript package is prepared for **Applied Soft Computing** (Elsevier, ISSN 1568-4946).
 
 > **Submission status:** manuscript prepared for journal submission; not peer reviewed or accepted. This repository is public.
 
@@ -20,7 +20,7 @@ This repository contains the Python implementations, archived numerical results,
 | `analysis/` | Reanalysis of the archived CSV summaries and generated descriptive tables. |
 | `validation/` | Benchmark validation scripts, reduced-budget execution logs and smoke-test outputs. |
 | `tests/` | Automated checks of selected algorithm functions and archived result structures. |
-| `paper/Information_Sciences/` | Current Information Sciences CAS package: source, class assets, highlights, checklist, and compiled PDF. |
+| `paper/Applied_Soft_Computing/` | Current Applied Soft Computing CAS package: source, class assets, highlights, checklist, and compiled PDF. |
 | `REPRODUCIBILITY_STATUS.md`, `EXPERIMENT_EXECUTION_REPORT.md` | Record what was checked and what remains unreplicated. |
 | `THIRD_PARTY_BENCHMARK_PROVENANCE.md` | Provenance and verification details for the external CEC2017 implementation. |
 | `requirements.txt` | Python dependencies. |
@@ -158,15 +158,15 @@ The original source snapshot was reported as commit `5e04fb2`; the expanded docu
 
 ## Manuscript and citation
 
-The current manuscript package targets [Information Sciences](https://www.elsevier.com/journals/information-sciences/0020-0255) and is available at:
+The current manuscript package targets [Applied Soft Computing](https://www.sciencedirect.com/journal/applied-soft-computing) and is available at:
 
-- [Compiled manuscript](paper/Information_Sciences/main.pdf)
-- [LaTeX source](paper/Information_Sciences/main.tex)
-- [Package instructions](paper/Information_Sciences/README.md)
-- [Submission checklist](paper/Information_Sciences/SUBMISSION_CHECKLIST.md)
-- [Research highlights](paper/Information_Sciences/highlights.txt)
+- [Compiled manuscript](paper/Applied_Soft_Computing/main.pdf)
+- [LaTeX source](paper/Applied_Soft_Computing/main.tex)
+- [Package instructions](paper/Applied_Soft_Computing/README.md)
+- [Submission checklist](paper/Applied_Soft_Computing/SUBMISSION_CHECKLIST.md)
+- [Research highlights](paper/Applied_Soft_Computing/highlights.txt)
 
-The package uses Elsevier's CAS single-column class and keeps all required source files at one folder level for Editorial Manager. Information Sciences uses single-anonymized review, so author details remain visible. The abstract (178 words), six keywords, four highlights, section hierarchy, front matter, numbered citations, appendix handling, CRediT metadata, AI-use declaration, cross-references, and compilation were checked.
+The package uses Elsevier's CAS single-column class and keeps all required source files at one folder level for Editorial Manager. Applied Soft Computing uses single-anonymized review, so author details remain visible. The abstract (178 words), six keywords, four highlights, section hierarchy, front matter, numbered citations, appendix handling, CRediT metadata, AI-use declaration, cross-references, and compilation were checked.
 
 When describing the numerical benchmark, attribute the Python wrapper to **Marcelo Lacerda** and the CEC2017 problem definitions to **Awad et al. (2016)**, using the upstream source and technical report cited above. Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff). Add the CREO paper's definitive journal citation and DOI after publication; none is asserted here.
 

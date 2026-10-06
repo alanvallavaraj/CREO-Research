@@ -1,11 +1,11 @@
-# Information Sciences submission release v1.1.0
+# Applied Soft Computing submission release v1.1.0
 
-This release tailors the current manuscript package for **Information Sciences** (Elsevier, ISSN 0020-0255).
+This release tailors the current manuscript package for **Applied Soft Computing** (Elsevier, ISSN 1568-4946).
 
 ## Journal-specific changes
 
-- Moves the current CAS manuscript package to `paper/Information_Sciences/`.
-- Removes the superseded IEEE-formatted manuscript so the repository contains only the current Information Sciences submission package.
+- Moves the current CAS manuscript package to `paper/Applied_Soft_Computing/`.
+- Removes the superseded IEEE-formatted manuscript so the repository contains only the current Applied Soft Computing submission package.
 - Uses a 178-word abstract to satisfy the submission portal's 200-word limit; retains the maximum of six keywords, 3–5 highlights with an 85-character limit, and single-anonymized review format.
 - Adds the required generative-AI-use declaration and journal-specific submission checklist.
 - Updates the code/data availability statement with the canonical repository URL and its private-at-submission status.
