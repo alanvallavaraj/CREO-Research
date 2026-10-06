@@ -1,4 +1,4 @@
-# CREO submission package for Information Sciences
+# CREO submission package
 
 This directory contains the submission-formatted manuscript for **Repair-Guided Evolutionary Optimisation (CREO): A Structured Search Paradigm for Continuous Optimisation**, prepared for **Information Sciences** (Elsevier, ISSN 0020-0255).
 
