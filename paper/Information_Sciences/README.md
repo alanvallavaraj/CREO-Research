@@ -1,8 +1,7 @@
 # CREO submission package
 
-This directory contains the submission-formatted manuscript for **Repair-Guided Evolutionary Optimisation (CREO): A Structured Search Paradigm for Continuous Optimisation**, prepared for **Information Sciences** (Elsevier, ISSN 0020-0255).
+This directory contains the submission-formatted manuscript for **Repair-Guided Evolutionary Optimisation (CREO): A Structured Search Paradigm for Continuous Optimisation**, prepared for **Applied Soft Computing** (Elsevier, ISSN: 1568-4946).
 
-Journal guide: <https://www.elsevier.com/journals/information-sciences/0020-0255/guide-for-authors>
 
 ## Main files
 
@@ -26,10 +25,10 @@ No BibTeX run is required because `main.tex` contains a complete `thebibliograph
 
 ## Formatting checked
 
-- Information Sciences is a single-anonymized journal, so author details remain in the manuscript.
+- Information Sciences is a single-anonymised journal, so author details remain in the manuscript.
 - The abstract is 178 words, within the submission portal's 200-word maximum.
 - Six English keywords are supplied, within the journal's maximum.
-- Four highlights are supplied; each is no more than 85 characters including spaces.
+- Four highlights are supplied; each is no more than 85 characters, including spaces.
 - Elsevier CAS front matter, affiliation, corresponding-author marker, email, and CRediT roles.
 - Consistent `section` → `subsection` hierarchy; no unsupported heading levels are used.
 - Elsevier keyword and highlights environments.
