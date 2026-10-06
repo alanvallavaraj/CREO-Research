@@ -6,7 +6,7 @@ This directory contains the submission-formatted manuscript for **Repair-Guided 
 ## Main files
 
 - `main.tex` — Elsevier CAS single-column manuscript source.
-- `main.pdf` — compiled manuscript PDF, visually checked after the journal-specific update.
+- `main.pdf` — compiled manuscript PDF.
 - `highlights.txt` — four submission highlights, each within Elsevier's 85-character limit.
 - `SUBMISSION_CHECKLIST.md` — journal-specific format checks and author confirmations still required.
 - `cas-sc.cls`, `cas-common.sty`, and `cas-model2-names.bst` — required template files.
